@@ -1,0 +1,30 @@
+{
+  "name": "notification-nodecron",
+  "version": "1.0.0",
+  "description": "BE Notification with Node-cron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fcm": "^1.0.3",
+    "fcm-node": "^1.6.1",
+    "firebase-admin": "^11.10.1",
+    "ioredis": "^5.3.2",
+    "nginx": "^1.0.8",
+    "node-cron": "^3.0.2",
+    "nodemon": "^3.0.1",
+    "pm2": "^5.3.0",
+    "redis": "^4.6.8",
+    "session": "^0.1.0",
+    "util": "^0.12.5"
+  }
+}
